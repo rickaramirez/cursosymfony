@@ -3,7 +3,6 @@ homepage:
     defaults: { _controller: ProductsProductBundle:Products:index, _locate: en }
     requirements:
         _locate: en|fr
-        #method: [GET]
     
 products_product_homepage:
     path: /products
@@ -11,6 +10,21 @@ products_product_homepage:
 
 
 product_view:
-    path: /product
+    path: /product/{id_product}
     defaults: { _controller: ProductsProductBundle:Products:getProduct, id_product: 1 }
+    requirements:
+        id_product: \d+
 
+
+product_edit:
+    path: /product/edit/{id_product}
+    defaults: { _controller: ProductsProductBundle:Products:editProduct}
+    
+    
+product_delete:
+    path: /product/delete/{id_product}
+    defaults: { _controller: ProductsProductBundle:Products:deleteProduct}
+
+product_new:
+    path: /product/new
+    defaults: { _controller: ProductsProductBundle:Products:newProduct}

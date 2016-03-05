@@ -117,8 +117,23 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             }
 
             // product_view
-            if ($pathinfo === '/product') {
-                return array (  '_controller' => 'Products\\ProductBundle\\Controller\\ProductsController::getProductAction',  'id_product' => 1,  '_route' => 'product_view',);
+            if (preg_match('#^/product(?:/(?P<id_product>\\d+))?$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'product_view')), array (  '_controller' => 'Products\\ProductBundle\\Controller\\ProductsController::getProductAction',  'id_product' => 1,));
+            }
+
+            // product_edit
+            if (0 === strpos($pathinfo, '/product/edit') && preg_match('#^/product/edit/(?P<id_product>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'product_edit')), array (  '_controller' => 'Products\\ProductBundle\\Controller\\ProductsController::editProductAction',));
+            }
+
+            // product_delete
+            if (0 === strpos($pathinfo, '/product/delete') && preg_match('#^/product/delete/(?P<id_product>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'product_delete')), array (  '_controller' => 'Products\\ProductBundle\\Controller\\ProductsController::deleteProductAction',));
+            }
+
+            // product_new
+            if ($pathinfo === '/product/new') {
+                return array (  '_controller' => 'Products\\ProductBundle\\Controller\\ProductsController::newProductAction',  '_route' => 'product_new',);
             }
 
         }

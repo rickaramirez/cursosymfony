@@ -7,28 +7,34 @@
                 Mi empresas SA
             {% endblock %}
         </title>
-        {% block stylesheets %}
-            <link rel="stylesheet" media="screen" href="{{ asset('public/css/utilities/bootstrap.min.css') }}"
-            <link rel="stylesheet" media="screen" href="{{ asset('public/css/main.min.css') }}"
+
+        {% block stylesheet %}
+            <link rel="stylesheet" media="screen" href=" {{ asset('public/css/utilities/bootstrap.min.css') }} " >
+            <link rel="stylesheet" media="screen" href=" {{ asset('public/css/main.min.css') }} " >
         {% endblock %}
+
+        {% block javascript %}
+            <script src="{{ asset('public/js/utilities/jquery-1.12.1.min.js') }}"></script>
+            <script src="{{ asset('public/js/utilities/bootstrap.min.js') }}"></script>
+        {% endblock %}
+
     </head>
     <body>
-        {% include 'header.html.twig' %}
         <div class="container">
-        
-        <h1 id="lb_section_title">
-            {% block section_title %}
-                
-            {% endblock %}
-        </h1>
+
+            {% include 'header.html.twig' %}
+
+            <h1 id="lb_section_title">
+                {% block section_title %}
+
+                {% endblock %}
+            </h1>
+
             {% block body %}
+
             {% endblock %}    
-            
+
+            {% include 'footer.html.twig' %}
         </div>
-        {% include 'footer.html.twig' %}
-            {% block javascripts %}
-                <script src="{{ asset('public/js/utilities/jquery-1.12.1.min.js') }}"></script>
-                <script src="{{ asset('public/js/utilities/bootstrap.min.js') }}"></script>
-            {% endblock %}
     </body>
 </html>
