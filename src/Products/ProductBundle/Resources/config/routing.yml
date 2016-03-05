@@ -1,0 +1,16 @@
+homepage:
+    path: /{_locate}
+    defaults: { _controller: ProductsProductBundle:Products:index, _locate: en }
+    requirements:
+        _locate: en|fr
+        #method: [GET]
+    
+products_product_homepage:
+    path: /products
+    defaults: { _controller: ProductsProductBundle:Products:index }
+
+
+product_view:
+    path: /product
+    defaults: { _controller: ProductsProductBundle:Products:getProduct, id_product: 1 }
+

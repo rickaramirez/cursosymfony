@@ -15,7 +15,7 @@
       <parameter key="SwiftmailerBundle">Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle</parameter>
       <parameter key="DoctrineBundle">Doctrine\Bundle\DoctrineBundle\DoctrineBundle</parameter>
       <parameter key="SensioFrameworkExtraBundle">Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle</parameter>
-      <parameter key="AppBundle">AppBundle\AppBundle</parameter>
+      <parameter key="ProductsProductBundle">Products\ProductBundle\ProductsProductBundle</parameter>
       <parameter key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
@@ -1751,7 +1751,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>56dafa3923d618.23898959</argument>
+            <argument>56db159548e448.88708375</argument>
           </service>
         </argument>
       </argument>
@@ -1880,7 +1880,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>56dafa3923d618.23898959</argument>
+            <argument>56db159548e448.88708375</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -2703,6 +2703,10 @@
       <call method="addPath">
         <argument>/Applications/XAMPP/xamppfiles/htdocs/cursosymfony/vendor/doctrine/doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Applications/XAMPP/xamppfiles/htdocs/cursosymfony/src/Products/ProductBundle/Resources/views</argument>
+        <argument>ProductsProduct</argument>
       </call>
       <call method="addPath">
         <argument>/Applications/XAMPP/xamppfiles/htdocs/cursosymfony/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
