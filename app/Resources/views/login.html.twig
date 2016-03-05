@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="card card-container">
+        <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+        <p id="profile-name" class="profile-name-card"></p>
+        <form class="form-signin" action="{{ path('login_check') }}" method="post">
+            <span id="reauth-email" class="reauth-email"></span>
+            <input id="inputEmail" name= "_username" class="form-control" placeholder="username" required autofocus>
+            <input type="password" id="inputPassword" name= "_password" class="form-control" placeholder="Password" required>
+            <div id="remember" class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Login</button>
+        </form><!-- /form -->
+        <a href="#" class="forgot-password">
+            Olvidaste tu contraseña?
+        </a>
+        {% if error %}
+            <p class="lb_error">{{ error.message | replace({
+                    "Bad credentials": "Usuario y/o Password incorrecto."
+                    })}}</p>
+            {% endif %}
+    </div><!-- /card-container -->
+</div><!-- /container -->

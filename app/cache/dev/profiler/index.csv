@@ -68,3 +68,10 @@ a6b19a,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457204650
 c091c6,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457205495,,200
 12c6ab,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457205562,,200
 6cdd11,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457205655,,200
+68ba09,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457205962,,200
+4a59c0,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457206081,,200
+3ba2f0,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457206127,70d2b9,200
+70d2b9,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457206127,,500
+54d9bf,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457206157,df2f1c,200
+df2f1c,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457206157,,500
+5e57f5,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457206267,,200

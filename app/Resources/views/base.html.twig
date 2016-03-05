@@ -13,13 +13,19 @@
         {% endblock %}
     </head>
     <body>
+        {% include 'header.html.twig' %}
+        <div class="container">
+        
         <h1 id="lb_section_title">
             {% block section_title %}
                 
             {% endblock %}
         </h1>
             {% block body %}
-            {% endblock %}
+            {% endblock %}    
+            
+        </div>
+        {% include 'footer.html.twig' %}
             {% block javascripts %}
                 <script src="{{ asset('public/js/utilities/jquery-1.12.1.min.js') }}"></script>
                 <script src="{{ asset('public/js/utilities/bootstrap.min.js') }}"></script>
