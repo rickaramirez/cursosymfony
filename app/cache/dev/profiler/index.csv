@@ -247,3 +247,14 @@ df52c9,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457800617
 f4bb5b,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457800629,,200
 f023a7,::1,POST,http://localhost/cursosymfony/web/app_dev.php/product/new,1457800637,,302
 8566bf,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457800638,,200
+aa233c,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457803104,,200
+c2efa5,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457803106,,200
+2fb9cc,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457803111,,200
+288418,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457803114,dbdb08,200
+dbdb08,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457803114,,500
+f57e4b,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457803190,037382,200
+037382,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457803190,,500
+669e0b,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457803212,43c434,200
+43c434,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457803212,,500
+339912,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457804115,,200
+7d6200,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457804132,,200

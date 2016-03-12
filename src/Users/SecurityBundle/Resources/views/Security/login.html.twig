@@ -1,3 +1,12 @@
+{% extends "::base.html.twig" %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" media="screen" href=" {{ asset('bundles/userssecurity/css/products.css') }} " >
+{% endblock stylesheets %}
+{% block section_title %}
+    Login
+{% endblock section_title %}
+{% block body %}
 <div class="container">
     <div class="card card-container">
         <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
@@ -23,3 +32,4 @@
             {% endif %}
     </div><!-- /card-container -->
 </div><!-- /container -->
+{% endblock body %}

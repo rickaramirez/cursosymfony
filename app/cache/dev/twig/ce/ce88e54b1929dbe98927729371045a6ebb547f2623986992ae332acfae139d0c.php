@@ -15,8 +15,8 @@ class __TwigTemplate_88bc1d0e207580ca287f450baece6e67dc80cb542f4d90549b62624620a
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f060f8847dce251ac03a4c3237e9a1b70000189edf5f9b982172a4f64c7ac954 = $this->env->getExtension("native_profiler");
-        $__internal_f060f8847dce251ac03a4c3237e9a1b70000189edf5f9b982172a4f64c7ac954->enter($__internal_f060f8847dce251ac03a4c3237e9a1b70000189edf5f9b982172a4f64c7ac954_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "header.html.twig"));
+        $__internal_1ed2da2627177000371c8a8f75393f8a2b50710fe221f1555c175c49c71d1a83 = $this->env->getExtension("native_profiler");
+        $__internal_1ed2da2627177000371c8a8f75393f8a2b50710fe221f1555c175c49c71d1a83->enter($__internal_1ed2da2627177000371c8a8f75393f8a2b50710fe221f1555c175c49c71d1a83_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "header.html.twig"));
 
         // line 1
         echo "<div id=\"header\">
@@ -33,12 +33,18 @@ class __TwigTemplate_88bc1d0e207580ca287f450baece6e67dc80cb542f4d90549b62624620a
             </div>
             <div id=\"navbar\" class=\"navbar-collapse collapse\">
                 <ul class=\"nav navbar-nav\"                  <li class=\"active\">
-                        <a href=\"\">Productos</a>
+                        <a href=\"";
+        // line 15
+        echo $this->env->getExtension('routing')->getPath("products_product_homepage");
+        echo "\">Productos</a>
                     </li>
                 </ul>
                 <ul class=\"nav navbar-nav navbar-right\">
                     <li>
-                        <a href=\"\">Login</a>
+                        <a href=\"";
+        // line 20
+        echo $this->env->getExtension('routing')->getPath("login");
+        echo "\">Login</a>
                     </li>
                 </ul>
             </div><!--/.nav-collapse -->
@@ -46,7 +52,7 @@ class __TwigTemplate_88bc1d0e207580ca287f450baece6e67dc80cb542f4d90549b62624620a
     </nav>
 </div>";
         
-        $__internal_f060f8847dce251ac03a4c3237e9a1b70000189edf5f9b982172a4f64c7ac954->leave($__internal_f060f8847dce251ac03a4c3237e9a1b70000189edf5f9b982172a4f64c7ac954_prof);
+        $__internal_1ed2da2627177000371c8a8f75393f8a2b50710fe221f1555c175c49c71d1a83->leave($__internal_1ed2da2627177000371c8a8f75393f8a2b50710fe221f1555c175c49c71d1a83_prof);
 
     }
 
@@ -55,9 +61,14 @@ class __TwigTemplate_88bc1d0e207580ca287f450baece6e67dc80cb542f4d90549b62624620a
         return "header.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  22 => 1,);
+        return array (  46 => 20,  38 => 15,  22 => 1,);
     }
 }
 /* <div id="header">*/
@@ -74,12 +85,12 @@ class __TwigTemplate_88bc1d0e207580ca287f450baece6e67dc80cb542f4d90549b62624620a
 /*             </div>*/
 /*             <div id="navbar" class="navbar-collapse collapse">*/
 /*                 <ul class="nav navbar-nav"                  <li class="active">*/
-/*                         <a href="">Productos</a>*/
+/*                         <a href="{{ path('products_product_homepage') }}">Productos</a>*/
 /*                     </li>*/
 /*                 </ul>*/
 /*                 <ul class="nav navbar-nav navbar-right">*/
 /*                     <li>*/
-/*                         <a href="">Login</a>*/
+/*                         <a href="{{ path('login') }}">Login</a>*/
 /*                     </li>*/
 /*                 </ul>*/
 /*             </div><!--/.nav-collapse -->*/

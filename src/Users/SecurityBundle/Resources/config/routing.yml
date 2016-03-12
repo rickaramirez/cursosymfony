@@ -5,3 +5,9 @@ users_security_homepage:
 login:
     path:     /login
     defaults: { _controller: UsersSecurityBundle:Security:login }
+   
+login_check:
+    path: /login_check
+    
+logout:
+    path: /logout
