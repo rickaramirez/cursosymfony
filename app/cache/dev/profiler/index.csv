@@ -258,3 +258,8 @@ f57e4b,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457803190,03
 43c434,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457803212,,500
 339912,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457804115,,200
 7d6200,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457804132,,200
+84bc7b,::1,GET,http://localhost/cursosymfony/web/app_dev.php/login,1457806604,,200
+ba3f44,::1,GET,http://localhost/cursosymfony/web/app_dev.php/products,1457806608,,200
+5ff375,::1,GET,http://localhost/cursosymfony/web/app_dev.php/product/1,1457806613,06f9e4,200
+06f9e4,::1,GET,http://localhost/cursosymfony/web/app_dev.php/product/1,1457806613,,405
+3f2476,::1,GET,http://localhost/cursosymfony/web/app_dev.php/,1457812419,,200
