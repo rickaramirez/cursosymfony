@@ -8,11 +8,15 @@
     <link rel="stylesheet" media="screen" href=" {{ asset('bundles/productsproduct/css/products.css') }} " >
 {% endblock %}
 {% block javascript %}
+    {{ parent() }}
+    <script src="{{ asset('bundles/productsproduct/js/products.js') }}"></script>
 {% endblock %}
 {% block section_title %}
     <h1>Tienda de productos</h1>
 {% endblock %}
 {% block body %}
+    <a style="float:right" onclick="modal_new();" href="#" class="btn btn-success">Nuevo Producto</a>
+    {% include 'ProductsProductBundle:Products:new_product.html.twig' %}
     <table class="table">
         <thead>
             <tr>

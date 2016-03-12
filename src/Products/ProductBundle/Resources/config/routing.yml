@@ -12,6 +12,7 @@ products_product_homepage:
 product_view:
     path: /product/{id_product}
     defaults: { _controller: ProductsProductBundle:Products:getProduct, id_product: 1 }
+    methods: [POST]
     requirements:
         id_product: \d+
 

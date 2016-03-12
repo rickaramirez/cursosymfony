@@ -5,6 +5,7 @@ namespace Products\ProductBundle\Controller;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Products\ProductBundle\Entity\Product;
+use Symfony\Component\HttpFoundation\Request;
 
 class ProductsController extends Controller
 {
@@ -23,9 +24,10 @@ class ProductsController extends Controller
     
     Public function indexAction(){
         
-        $products = array();
+        //$products = array();
         $em = $this->getDoctrine()->getManager();
-        $products = $em->getRepository('ProductsProductBundle:Product')->findBy(array(), array("title" => "asc"));
+       // $products = $em->getRepository('ProductsProductBundle:Product')->findBy(array(), array("title" => "asc"));
+        $products = $em->getRepository('ProductsProductBundle:Product')->findAllOrderByName(1999);
         
         return $this->render('ProductsProductBundle:Products:index.html.twig', array("products"=>$products) );
     }
@@ -63,20 +65,20 @@ class ProductsController extends Controller
          return $this->redirectToRoute("products_product_homepage");
     }
     
-    Public function newProductAction(){
+    Public function newProductAction(Request $request){
         $product = new Product();
-        $product->setTitle("Bolsas de Plastico");
-        $product->setImage("bolsasplastico.png");
-        $product->setDescription("Descripción de las bolsas de plastico");
-        $product->setProductionYear(1987);
+        $product->setTitle($request->get('title'));
+        $product->setImage($request->get('image'));
+        $product->setDescription($request->get('description'));
+        $product->setProductionYear($request->get('production_year'));
         
         $em = $this->getDoctrine()->getManager();
         $em->persist($product); //se asegura de mandar el tipo de datos que se delararon
         $em->flush(); //guarda los datos en la BD despues de validados
         //die("sdfg");
-        return new Response("producto creado".$product->getId());
+        //return new Response("producto creado".$product->getId());
         
         
-        //return $this->redirectToRoute("products_product_homepage");
+        return $this->redirectToRoute("products_product_homepage");
     }
 }

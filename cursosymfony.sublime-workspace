@@ -1,0 +1,336 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/Products/ProductBundle/Resources/views/Products/index.html.twig",
+			"settings":
+			{
+				"buffer_size": 1193,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Products/ProductBundle/Resources/views/Products/product.html.twig",
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Resources/views/base.html.twig",
+			"settings":
+			{
+				"buffer_size": 1000,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"add",
+				"Project: Add Folder"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/cursosymfony/src/Products/ProductBundle/Resources/views/Products/product.html.twig",
+		"/Applications/XAMPP/xamppfiles/htdocs/cursosymfony/src/Products/ProductBundle/Resources/views/Products/index.html.twig",
+		"/Users/admin/Desktop/function.php",
+		"/Users/admin/Documents/Proyectos/ANTAD 2016/Recover.log",
+		"/Applications/XAMPP/xamppfiles/htdocs/cursocfpoo/README.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/blogricka/app/config/config.yml",
+		"/Applications/XAMPP/xamppfiles/htdocs/my_project/app/config/config.yml",
+		"/Applications/XAMPP/xamppfiles/etc/php.ini",
+		"/private/etc/php-fpm.conf.default",
+		"/private/etc/php.ini.default",
+		"/Users/admin/Desktop/ProyectoGit/ArchivoLocal.txt",
+		"/Users/admin/Desktop/ProyectoGit/HolaLocal.txt",
+		"/Users/admin/Desktop/ProyectoGit/README.txt",
+		"/Users/admin/Desktop/mejorandogit-master/commits.txt",
+		"/Users/admin/Desktop/mejorandogit-master/stylesheets/normalize.css",
+		"/Users/admin/Desktop/mejorandogit-master/stylesheets/styles.css",
+		"/Users/admin/Desktop/mejorandogit-master/index.html",
+		"/peliculas1linkmega",
+		"/Volumes/Swordfish_II/0 PERSONAL/0 Pictures Personales/2008/2008-07 Champlain_Bolos/MD.db copy",
+		"/private/etc/hosts",
+		"/Users/admin/Documents/Proyectos/MFV ExpoFranquisias Mexico/CSD_MFV000515R9A_20151126084552 [eventos]/00001000000400879671.cer.pem",
+		"/Volumes/Swordfish_II/20151002 - MAC RETINA BACKUP/Desktop/Log de Cambios en el sistema Registro",
+		"/Users/admin/Documents/Proyectos/MFV ExpoFranquisias Mexico/CSD_MFV000515R9A_20151126084552 [eventos]/00001000000400879671.cer",
+		"/Users/admin/Documents/Proyectos/MFV ExpoFranquisias Mexico/CSD_MFV000515R9A_20151126084552 [eventos]/CSD_Eventos_MFV000515R9A_20151126_084511.key",
+		"/Users/admin/Documents/Proyectos/MFV ExpoFranquisias Mexico/CSD_MFV000515R9A_20151126084552 [eventos]/CSD_Eventos_MFV000515R9A_20151126_084511.key.pem",
+		"/Volumes/Swordfish_II/20151002 - MAC RETINA BACKUP/Desktop/Log de Cambios en el sistema Publishop",
+		"/Volumes/Swordfish_II/20151002 - MAC RETINA BACKUP/Desktop/::CADENA INSERCIÓN",
+		"/Library/WebServer/Documents/info.php",
+		"/Users/admin/Desktop/<?php",
+		"/Users/admin/Desktop/CENAS REPLACE",
+		"/Users/admin/Desktop/usr: xps2",
+		"/Users/admin/Google Drive/Proyectos/Facturación Electrónica/Anexo 20 v3.2/cadenaoriginal_3_2.xslt",
+		"/Users/admin/Desktop/Log de Cambios en el sistema Registro",
+		"/Users/admin/Desktop/Log de Cambios en el sistema Publishop",
+		"/Users/admin/Desktop/Import.log",
+		"/Users/admin/Desktop/IXPO_DOC_38_C.xml",
+		"/Users/admin/Downloads/Telegram/2015-08-04 Caja Chica Celaya Conv Nery.txt",
+		"/Users/admin/Desktop/2441795 Pedido NiceQuest",
+		"/Users/admin/Desktop/https:::open.spotify.com:track:7f3DYdjHqjsxigGAfdQ",
+		"/Users/admin/Desktop/1401453521:04:20159INInconsistenciaINCONSISTENCIA9",
+		"/Users/admin/Desktop/VISA USA MYRH",
+		"/Users/admin/Desktop/::CADENA INSERCIÓN",
+		"/Users/admin/Downloads/fmfoo-v1/PHP Script/fmfoo.php",
+		"/Users/admin/Downloads/Telegram/Consultas",
+		"/Users/admin/Downloads/Telegram/jquery.encuesta.js",
+		"/Users/admin/Downloads/Telegram/Encuesta LAC 2015.json",
+		"/Users/admin/Downloads/Telegram/EncuestaModel.php",
+		"/Users/admin/Downloads/Telegram/EncuestaController.php",
+		"/Users/admin/Downloads/Telegram/Encuesta SE 2014.txt",
+		"/Users/admin/Desktop/The Snitch has been working for me for the past 12",
+		"/Users/admin/Downloads/Telegram/Encuesta SE 2014.json",
+		"/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/graphics/IOGraphicsTypes.h",
+		"/Applications/oxygen/tools/ant/bin/lcp.bat",
+		"/Volumes/Hammerhead/VIDEO/Series/Homeland/Season 01/Homeland 01x01.srt",
+		"/Volumes/Hammerhead/VIDEO/Series/Black Mirror/Season 2/Black Mirror - S02 - E01 - Be Right Back.srt",
+		"/Volumes/Hammerhead/VIDEO/Series/Black Mirror/Season 2/black_mirror.2x01.be_right_back.720p_hdtv_x264-fov.mkv",
+		"/Volumes/Hammerhead/VIDEO/Series/Black Mirror/Black.Mirror.S01E01.The.National.Anthem.HDTV.XviD-RiVER.srt",
+		"/Volumes/Hammerhead/VIDEO/Series/Black Mirror/Season 1/Black.Mirror.1x01.Messaggio.al.primo.ministro.ITA-ENG.720p.DLMux.h264-DarkSideMux.mkv",
+		"/Volumes/Hammerhead/VIDEO/Series/Once Upon a Time/Once Upon A Time S03/Once.Upon.a.Time.S03E01.srt",
+		"/Volumes/Hammerhead/VIDEO/Series/Once Upon a Time/Once Upon A Time S01/Once.Upon.a.Time.S01E03.HDTV.XviD-LOL.Snow.Falls.srt",
+		"/Volumes/Hammerhead/VIDEO/Series/Once Upon a Time/Once Upon A Time S01/Once.Upon.a.Time.S01E03.Snow.Falls.HDTV.XviD-LOL.srt",
+		"/Volumes/Hammerhead/VIDEO/Series/Once Upon a Time/Once Upon A Time S01/Once.Upon.a.Time.S01E01.HDTV.XviD-LOL.Pilot.srt",
+		"/Users/admin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"modified",
+			"modifiec",
+			"date.timezone",
+			"time.zone",
+			"time",
+			"zone",
+			"time",
+			"timezone",
+			"vcv"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/Products/ProductBundle/Resources/views/Products/index.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/Products/ProductBundle/Resources/views/Products/product.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Resources/views/base.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								877,
+								877
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "cursosymfony.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -25,20 +25,20 @@ class __TwigTemplate_2d01c36d0dd30e0fb481fbef87778c65568c6025edc2d5c43698bf99ddd
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_aedf750a1baa4769df6df3294af4b07ec1a0235d90e8e2e8a1e4879c07bdf982 = $this->env->getExtension("native_profiler");
-        $__internal_aedf750a1baa4769df6df3294af4b07ec1a0235d90e8e2e8a1e4879c07bdf982->enter($__internal_aedf750a1baa4769df6df3294af4b07ec1a0235d90e8e2e8a1e4879c07bdf982_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "ProductsProductBundle:Products:index.html.twig"));
+        $__internal_469ddbcb4154e2e4de3c0615716fbd2ebf1509132635600e468561577afc4364 = $this->env->getExtension("native_profiler");
+        $__internal_469ddbcb4154e2e4de3c0615716fbd2ebf1509132635600e468561577afc4364->enter($__internal_469ddbcb4154e2e4de3c0615716fbd2ebf1509132635600e468561577afc4364_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "ProductsProductBundle:Products:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_aedf750a1baa4769df6df3294af4b07ec1a0235d90e8e2e8a1e4879c07bdf982->leave($__internal_aedf750a1baa4769df6df3294af4b07ec1a0235d90e8e2e8a1e4879c07bdf982_prof);
+        $__internal_469ddbcb4154e2e4de3c0615716fbd2ebf1509132635600e468561577afc4364->leave($__internal_469ddbcb4154e2e4de3c0615716fbd2ebf1509132635600e468561577afc4364_prof);
 
     }
 
     // line 2
     public function block_title($context, array $blocks = array())
     {
-        $__internal_8e466c365ebcfe4a24e7c6a75c9b9908f4a5bac6a7c2c23636f7ecbf375f7508 = $this->env->getExtension("native_profiler");
-        $__internal_8e466c365ebcfe4a24e7c6a75c9b9908f4a5bac6a7c2c23636f7ecbf375f7508->enter($__internal_8e466c365ebcfe4a24e7c6a75c9b9908f4a5bac6a7c2c23636f7ecbf375f7508_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_5f7dffbf89f54dc7050f988283f56759bacc9221248e8ebdd8c91c554516fbb6 = $this->env->getExtension("native_profiler");
+        $__internal_5f7dffbf89f54dc7050f988283f56759bacc9221248e8ebdd8c91c554516fbb6->enter($__internal_5f7dffbf89f54dc7050f988283f56759bacc9221248e8ebdd8c91c554516fbb6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         // line 3
         echo "    ";
@@ -47,15 +47,15 @@ class __TwigTemplate_2d01c36d0dd30e0fb481fbef87778c65568c6025edc2d5c43698bf99ddd
     - productos
 ";
         
-        $__internal_8e466c365ebcfe4a24e7c6a75c9b9908f4a5bac6a7c2c23636f7ecbf375f7508->leave($__internal_8e466c365ebcfe4a24e7c6a75c9b9908f4a5bac6a7c2c23636f7ecbf375f7508_prof);
+        $__internal_5f7dffbf89f54dc7050f988283f56759bacc9221248e8ebdd8c91c554516fbb6->leave($__internal_5f7dffbf89f54dc7050f988283f56759bacc9221248e8ebdd8c91c554516fbb6_prof);
 
     }
 
     // line 6
     public function block_stylesheet($context, array $blocks = array())
     {
-        $__internal_a9ce0f09dac3a5be2808b287f39b5a062df6fbad5cf5cb0e8f170ac2e56458a2 = $this->env->getExtension("native_profiler");
-        $__internal_a9ce0f09dac3a5be2808b287f39b5a062df6fbad5cf5cb0e8f170ac2e56458a2->enter($__internal_a9ce0f09dac3a5be2808b287f39b5a062df6fbad5cf5cb0e8f170ac2e56458a2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheet"));
+        $__internal_c823f67bfbabc07f734ac82a9922115da2a197dbd592b80e2abcab95dcf9a189 = $this->env->getExtension("native_profiler");
+        $__internal_c823f67bfbabc07f734ac82a9922115da2a197dbd592b80e2abcab95dcf9a189->enter($__internal_c823f67bfbabc07f734ac82a9922115da2a197dbd592b80e2abcab95dcf9a189_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheet"));
 
         // line 7
         echo "    ";
@@ -67,106 +67,127 @@ class __TwigTemplate_2d01c36d0dd30e0fb481fbef87778c65568c6025edc2d5c43698bf99ddd
         echo " \" >
 ";
         
-        $__internal_a9ce0f09dac3a5be2808b287f39b5a062df6fbad5cf5cb0e8f170ac2e56458a2->leave($__internal_a9ce0f09dac3a5be2808b287f39b5a062df6fbad5cf5cb0e8f170ac2e56458a2_prof);
+        $__internal_c823f67bfbabc07f734ac82a9922115da2a197dbd592b80e2abcab95dcf9a189->leave($__internal_c823f67bfbabc07f734ac82a9922115da2a197dbd592b80e2abcab95dcf9a189_prof);
 
     }
 
     // line 10
     public function block_javascript($context, array $blocks = array())
     {
-        $__internal_65cd66961b0336fa4c7a3f67ec9cb3d4702f3cf5612265eb39085765e4c2e983 = $this->env->getExtension("native_profiler");
-        $__internal_65cd66961b0336fa4c7a3f67ec9cb3d4702f3cf5612265eb39085765e4c2e983->enter($__internal_65cd66961b0336fa4c7a3f67ec9cb3d4702f3cf5612265eb39085765e4c2e983_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascript"));
+        $__internal_4d82bd1e102a965accdb70c679916b839f9a14689cec1466bad0929a04f928e6 = $this->env->getExtension("native_profiler");
+        $__internal_4d82bd1e102a965accdb70c679916b839f9a14689cec1466bad0929a04f928e6->enter($__internal_4d82bd1e102a965accdb70c679916b839f9a14689cec1466bad0929a04f928e6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascript"));
 
         // line 11
+        echo "    ";
+        $this->displayParentBlock("javascript", $context, $blocks);
         echo "
+    <script src=\"";
+        // line 12
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/productsproduct/js/products.js"), "html", null, true);
+        echo "\"></script>
 ";
         
-        $__internal_65cd66961b0336fa4c7a3f67ec9cb3d4702f3cf5612265eb39085765e4c2e983->leave($__internal_65cd66961b0336fa4c7a3f67ec9cb3d4702f3cf5612265eb39085765e4c2e983_prof);
+        $__internal_4d82bd1e102a965accdb70c679916b839f9a14689cec1466bad0929a04f928e6->leave($__internal_4d82bd1e102a965accdb70c679916b839f9a14689cec1466bad0929a04f928e6_prof);
 
     }
 
-    // line 13
+    // line 14
     public function block_section_title($context, array $blocks = array())
     {
-        $__internal_5e5864a622dc6cc6f8a7ceadd1147ff58dbae9804be11a223c315f0b8fca0a3e = $this->env->getExtension("native_profiler");
-        $__internal_5e5864a622dc6cc6f8a7ceadd1147ff58dbae9804be11a223c315f0b8fca0a3e->enter($__internal_5e5864a622dc6cc6f8a7ceadd1147ff58dbae9804be11a223c315f0b8fca0a3e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "section_title"));
+        $__internal_03bc760f6f13ae705d672271bc1d847aef0ec70bcbc2a8d18c5c2fe3494405c0 = $this->env->getExtension("native_profiler");
+        $__internal_03bc760f6f13ae705d672271bc1d847aef0ec70bcbc2a8d18c5c2fe3494405c0->enter($__internal_03bc760f6f13ae705d672271bc1d847aef0ec70bcbc2a8d18c5c2fe3494405c0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "section_title"));
 
-        // line 14
+        // line 15
         echo "    <h1>Tienda de productos</h1>
 ";
         
-        $__internal_5e5864a622dc6cc6f8a7ceadd1147ff58dbae9804be11a223c315f0b8fca0a3e->leave($__internal_5e5864a622dc6cc6f8a7ceadd1147ff58dbae9804be11a223c315f0b8fca0a3e_prof);
+        $__internal_03bc760f6f13ae705d672271bc1d847aef0ec70bcbc2a8d18c5c2fe3494405c0->leave($__internal_03bc760f6f13ae705d672271bc1d847aef0ec70bcbc2a8d18c5c2fe3494405c0_prof);
 
     }
 
-    // line 16
+    // line 17
     public function block_body($context, array $blocks = array())
     {
-        $__internal_661e43a3e8a8486aa58e2ea0f424b5a1076c844d5e3cb58cfe08ede04907c183 = $this->env->getExtension("native_profiler");
-        $__internal_661e43a3e8a8486aa58e2ea0f424b5a1076c844d5e3cb58cfe08ede04907c183->enter($__internal_661e43a3e8a8486aa58e2ea0f424b5a1076c844d5e3cb58cfe08ede04907c183_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_68765e4c99732cc2e32df071d98324fecf35675923f17027d900668dccd80fd5 = $this->env->getExtension("native_profiler");
+        $__internal_68765e4c99732cc2e32df071d98324fecf35675923f17027d900668dccd80fd5->enter($__internal_68765e4c99732cc2e32df071d98324fecf35675923f17027d900668dccd80fd5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 17
-        echo "    <table class=\"table\">
-    <tbody>
-        ";
+        // line 18
+        echo "    <a style=\"float:right\" onclick=\"modal_new();\" href=\"#\" class=\"btn btn-success\">Nuevo Producto</a>
+    ";
         // line 19
-        echo $this->env->getExtension('dump')->dump($this->env, $context, (isset($context["products"]) ? $context["products"] : $this->getContext($context, "products")));
-        echo "
-        ";
+        $this->loadTemplate("ProductsProductBundle:Products:new_product.html.twig", "ProductsProductBundle:Products:index.html.twig", 19)->display($context);
         // line 20
+        echo "    <table class=\"table\">
+        <thead>
+            <tr>
+                <th>Titulo</th>
+                <th>Descripción</th>
+                <th>Año</th>
+                <th>Imagen</th>
+                <th colspan=\"2\"></th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr><td colspan=\"6\">Yo soy el footer de la tabla :D</td></tr>
+        </tfoot>
+        <tbody>
+            ";
+        // line 35
+        echo "            ";
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["products"]) ? $context["products"] : $this->getContext($context, "products")));
         $context['_iterated'] = false;
         foreach ($context['_seq'] as $context["_key"] => $context["product"]) {
-            // line 21
-            echo "            <tr>
-                <td>";
-            // line 22
+            // line 36
+            echo "                <tr>
+                    <td>";
+            // line 37
             echo twig_escape_filter($this->env, twig_upper_filter($this->env, $this->getAttribute($context["product"], "title", array())), "html", null, true);
             echo "</td>
-                <td>";
-            // line 23
+                    <td>";
+            // line 38
             echo twig_escape_filter($this->env, $this->getAttribute($context["product"], "description", array()), "html", null, true);
             echo "</td>
-                <td>";
-            // line 24
+                    <td>";
+            // line 39
             echo twig_escape_filter($this->env, $this->getAttribute($context["product"], "productionyear", array()), "html", null, true);
             echo "</td>
-                <td>";
-            // line 25
+                    <td>";
+            // line 40
             echo twig_escape_filter($this->env, $this->getAttribute($context["product"], "image", array()), "html", null, true);
             echo "</td>
-                <td>
-                    <a href=\"";
-            // line 27
+                    <td>
+                        <a href=\"";
+            // line 42
             echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("product_edit", array("id_product" => $this->getAttribute($context["product"], "id", array()))), "html", null, true);
             echo "\" class=\"btn btn-warning\">Editar</a>
-                    <a href=\"";
-            // line 28
+                        <a href=\"";
+            // line 43
             echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("product_delete", array("id_product" => $this->getAttribute($context["product"], "id", array()))), "html", null, true);
             echo "\"class=\"btn btn-danger\">Eliminar</a>    
-                </td>
-            </tr>
-        ";
+                    </td>
+                </tr>
+            ";
             $context['_iterated'] = true;
         }
         if (!$context['_iterated']) {
-            // line 32
-            echo "            <tr>
-                <td>
-                    No hay    
-                </td>
-            </tr>
-        ";
+            // line 47
+            echo "                <tr>
+                    <td>
+                        No hay registros para mostrar 
+                    </td>
+                </tr>
+            ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 38
-        echo "    </tbody>
+        // line 53
+        echo "        </tbody>
+    </table>
 ";
         
-        $__internal_661e43a3e8a8486aa58e2ea0f424b5a1076c844d5e3cb58cfe08ede04907c183->leave($__internal_661e43a3e8a8486aa58e2ea0f424b5a1076c844d5e3cb58cfe08ede04907c183_prof);
+        $__internal_68765e4c99732cc2e32df071d98324fecf35675923f17027d900668dccd80fd5->leave($__internal_68765e4c99732cc2e32df071d98324fecf35675923f17027d900668dccd80fd5_prof);
 
     }
 
@@ -182,7 +203,7 @@ class __TwigTemplate_2d01c36d0dd30e0fb481fbef87778c65568c6025edc2d5c43698bf99ddd
 
     public function getDebugInfo()
     {
-        return array (  166 => 38,  155 => 32,  146 => 28,  142 => 27,  137 => 25,  133 => 24,  129 => 23,  125 => 22,  122 => 21,  117 => 20,  113 => 19,  109 => 17,  103 => 16,  95 => 14,  89 => 13,  81 => 11,  75 => 10,  66 => 8,  61 => 7,  55 => 6,  44 => 3,  38 => 2,  11 => 1,);
+        return array (  186 => 53,  175 => 47,  166 => 43,  162 => 42,  157 => 40,  153 => 39,  149 => 38,  145 => 37,  142 => 36,  136 => 35,  120 => 20,  118 => 19,  115 => 18,  109 => 17,  101 => 15,  95 => 14,  86 => 12,  81 => 11,  75 => 10,  66 => 8,  61 => 7,  55 => 6,  44 => 3,  38 => 2,  11 => 1,);
     }
 }
 /* {%extends "base.html.twig"%}*/
@@ -195,32 +216,48 @@ class __TwigTemplate_2d01c36d0dd30e0fb481fbef87778c65568c6025edc2d5c43698bf99ddd
 /*     <link rel="stylesheet" media="screen" href=" {{ asset('bundles/productsproduct/css/products.css') }} " >*/
 /* {% endblock %}*/
 /* {% block javascript %}*/
-/* */
+/*     {{ parent() }}*/
+/*     <script src="{{ asset('bundles/productsproduct/js/products.js') }}"></script>*/
 /* {% endblock %}*/
 /* {% block section_title %}*/
 /*     <h1>Tienda de productos</h1>*/
 /* {% endblock %}*/
 /* {% block body %}*/
+/*     <a style="float:right" onclick="modal_new();" href="#" class="btn btn-success">Nuevo Producto</a>*/
+/*     {% include 'ProductsProductBundle:Products:new_product.html.twig' %}*/
 /*     <table class="table">*/
-/*     <tbody>*/
-/*         {{ dump(products) }}*/
-/*         {% for product in products %}*/
+/*         <thead>*/
 /*             <tr>*/
-/*                 <td>{{product.title | upper}}</td>*/
-/*                 <td>{{product.description}}</td>*/
-/*                 <td>{{product.productionyear}}</td>*/
-/*                 <td>{{product.image}}</td>*/
-/*                 <td>*/
-/*                     <a href="{{path('product_edit', {'id_product': product.id})}}" class="btn btn-warning">Editar</a>*/
-/*                     <a href="{{path('product_delete', {'id_product': product.id})}}"class="btn btn-danger">Eliminar</a>    */
-/*                 </td>*/
+/*                 <th>Titulo</th>*/
+/*                 <th>Descripción</th>*/
+/*                 <th>Año</th>*/
+/*                 <th>Imagen</th>*/
+/*                 <th colspan="2"></th>*/
 /*             </tr>*/
-/*         {% else %}*/
-/*             <tr>*/
-/*                 <td>*/
-/*                     No hay    */
-/*                 </td>*/
-/*             </tr>*/
-/*         {% endfor %}*/
-/*     </tbody>*/
+/*         </thead>*/
+/*         <tfoot>*/
+/*             <tr><td colspan="6">Yo soy el footer de la tabla :D</td></tr>*/
+/*         </tfoot>*/
+/*         <tbody>*/
+/*             {# {{ dump(products) }} #}*/
+/*             {% for product in products %}*/
+/*                 <tr>*/
+/*                     <td>{{product.title | upper}}</td>*/
+/*                     <td>{{product.description}}</td>*/
+/*                     <td>{{product.productionyear}}</td>*/
+/*                     <td>{{product.image}}</td>*/
+/*                     <td>*/
+/*                         <a href="{{path('product_edit', {'id_product': product.id})}}" class="btn btn-warning">Editar</a>*/
+/*                         <a href="{{path('product_delete', {'id_product': product.id})}}"class="btn btn-danger">Eliminar</a>    */
+/*                     </td>*/
+/*                 </tr>*/
+/*             {% else %}*/
+/*                 <tr>*/
+/*                     <td>*/
+/*                         No hay registros para mostrar */
+/*                     </td>*/
+/*                 </tr>*/
+/*             {% endfor %}*/
+/*         </tbody>*/
+/*     </table>*/
 /* {% endblock %}*/

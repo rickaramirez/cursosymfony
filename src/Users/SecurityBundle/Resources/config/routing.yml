@@ -1,0 +1,7 @@
+users_security_homepage:
+    path:     /
+    defaults: { _controller: UsersSecurityBundle:Default:index }
+
+login:
+    path:     /login
+    defaults: { _controller: UsersSecurityBundle:Security:login }

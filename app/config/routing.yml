@@ -1,3 +1,7 @@
+users_security:
+    resource: "@UsersSecurityBundle/Resources/config/routing.yml"
+    prefix:   /
+
 products_product:
     resource: "@ProductsProductBundle/Resources/config/routing.yml"
     prefix:   /

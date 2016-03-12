@@ -7,34 +7,25 @@
                 Mi empresas SA
             {% endblock %}
         </title>
-
         {% block stylesheet %}
             <link rel="stylesheet" media="screen" href=" {{ asset('public/css/utilities/bootstrap.min.css') }} " >
             <link rel="stylesheet" media="screen" href=" {{ asset('public/css/main.min.css') }} " >
         {% endblock %}
-
         {% block javascript %}
             <script src="{{ asset('public/js/utilities/jquery-1.12.1.min.js') }}"></script>
             <script src="{{ asset('public/js/utilities/bootstrap.min.js') }}"></script>
         {% endblock %}
-
     </head>
+    {% include 'header.html.twig' %}
     <body>
         <div class="container">
-
-            {% include 'header.html.twig' %}
-
-            <h1 id="lb_section_title">
+            <h1>
                 {% block section_title %}
-
                 {% endblock %}
             </h1>
-
             {% block body %}
-
-            {% endblock %}    
-
-            {% include 'footer.html.twig' %}
+            {% endblock %}   
         </div>
     </body>
+    {% include 'footer.html.twig' %}
 </html>

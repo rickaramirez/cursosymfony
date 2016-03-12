@@ -9,6 +9,16 @@ security:
 
     firewalls:
         # disables authentication for assets and the profiler, adapt it according to your needs
+        secured_area:
+            pattern: ^
+            anonymous: ~
+            form_login:
+                login_path: login
+                check_path: loguin_check
+                default_target_path: /products
+            logout:
+                path: /logout
+                target: /products
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false

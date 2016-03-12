@@ -10,4 +10,12 @@ namespace Products\ProductBundle\Repository;
  */
 class ProductRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function findAllOrderByName($year){
+        return $this->getEntityManager()->createQuery(
+            'SELECT p
+            FROM ProductsProductBundle:Product p
+            WHERE p.productionYear > :year
+            ORDER BY p.title ASC'       
+        )->setParameter("year", $year)->getResult(); //setParametar garantiza que no tengamos inyección de código
+    }
 }

@@ -118,8 +118,14 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
             // product_view
             if (preg_match('#^/product(?:/(?P<id_product>\\d+))?$#s', $pathinfo, $matches)) {
+                if ($this->context->getMethod() != 'POST') {
+                    $allow[] = 'POST';
+                    goto not_product_view;
+                }
+
                 return $this->mergeDefaults(array_replace($matches, array('_route' => 'product_view')), array (  '_controller' => 'Products\\ProductBundle\\Controller\\ProductsController::getProductAction',  'id_product' => 1,));
             }
+            not_product_view:
 
             // product_edit
             if (0 === strpos($pathinfo, '/product/edit') && preg_match('#^/product/edit/(?P<id_product>[^/]++)$#s', $pathinfo, $matches)) {
