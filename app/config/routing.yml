@@ -13,4 +13,8 @@ users_security:
 products_product:
     resource: "@ProductsProductBundle/Resources/config/routing.yml"
     prefix:   /
+    
+    
+    
+    Hola
 
