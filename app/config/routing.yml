@@ -13,4 +13,4 @@ users_security:
 products_product:
     resource: "@ProductsProductBundle/Resources/config/routing.yml"
     prefix:   /
-
+##esto es un cambio
