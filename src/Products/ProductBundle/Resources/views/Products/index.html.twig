@@ -8,32 +8,44 @@
     <link rel="stylesheet" media="screen" href=" {{ asset('bundles/productsproduct/css/products.css') }} " >
 {% endblock %}
 {% block javascript %}
-
 {% endblock %}
 {% block section_title %}
     <h1>Tienda de productos</h1>
 {% endblock %}
 {% block body %}
     <table class="table">
-    <tbody>
-        {{ dump(products) }}
-        {% for product in products %}
+        <thead>
             <tr>
-                <td>{{product.title | upper}}</td>
-                <td>{{product.description}}</td>
-                <td>{{product.productionyear}}</td>
-                <td>{{product.image}}</td>
-                <td>
-                    <a href="{{path('product_edit', {'id_product': product.id})}}" class="btn btn-warning">Editar</a>
-                    <a href="{{path('product_delete', {'id_product': product.id})}}"class="btn btn-danger">Eliminar</a>    
-                </td>
+                <th>Titulo</th>
+                <th>Descripción</th>
+                <th>Año</th>
+                <th>Imagen</th>
+                <th colspan="2"></th>
             </tr>
-        {% else %}
-            <tr>
-                <td>
-                    No hay    
-                </td>
-            </tr>
-        {% endfor %}
-    </tbody>
+        </thead>
+        <tfoot>
+            <tr><td colspan="6">Yo soy el footer de la tabla :D</td></tr>
+        </tfoot>
+        <tbody>
+            {# {{ dump(products) }} #}
+            {% for product in products %}
+                <tr>
+                    <td>{{product.title | upper}}</td>
+                    <td>{{product.description}}</td>
+                    <td>{{product.productionyear}}</td>
+                    <td>{{product.image}}</td>
+                    <td>
+                        <a href="{{path('product_edit', {'id_product': product.id})}}" class="btn btn-warning">Editar</a>
+                        <a href="{{path('product_delete', {'id_product': product.id})}}"class="btn btn-danger">Eliminar</a>    
+                    </td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td>
+                        No hay registros para mostrar 
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 {% endblock %}
